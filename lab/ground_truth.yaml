@@ -1,0 +1,91 @@
+# Full declared port domain: all other ports default closed.
+port_domain: [1, 65535]
+default_states: {tcp: closed, udp: closed}
+measurement_ports: [22, 53, 80, 81, 82, 6379, 8000]
+# Truth for the declared 7-port measurement domain; not all 65535 ports.
+hosts:
+  172.30.0.10:
+    tcp:
+      22: closed
+      53: closed
+      80: open
+      81: closed
+      82: closed
+      6379: closed
+      8000: closed
+    udp:
+      22: closed
+      53: closed
+      80: closed
+      81: closed
+      82: closed
+      6379: closed
+      8000: closed
+  172.30.0.11:
+    tcp:
+      22: open
+      53: closed
+      80: closed
+      81: closed
+      82: closed
+      6379: closed
+      8000: closed
+    udp:
+      22: closed
+      53: closed
+      80: closed
+      81: closed
+      82: closed
+      6379: closed
+      8000: closed
+  172.30.0.12:
+    tcp:
+      22: closed
+      53: closed
+      80: closed
+      81: closed
+      82: closed
+      6379: closed
+      8000: closed
+    udp:
+      22: closed
+      53: open
+      80: closed
+      81: closed
+      82: closed
+      6379: closed
+      8000: closed
+  172.30.0.13:
+    tcp:
+      22: closed
+      53: closed
+      80: closed
+      81: closed
+      82: closed
+      6379: open
+      8000: closed
+    udp:
+      22: closed
+      53: closed
+      80: closed
+      81: closed
+      82: closed
+      6379: closed
+      8000: closed
+  172.30.0.14:
+    tcp:
+      22: closed
+      53: closed
+      80: closed
+      81: filtered
+      82: closed
+      6379: closed
+      8000: open
+    udp:
+      22: closed
+      53: closed
+      80: closed
+      81: filtered
+      82: closed
+      6379: closed
+      8000: closed

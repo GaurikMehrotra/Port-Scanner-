@@ -1,0 +1,1 @@
+"""Labscan components."""

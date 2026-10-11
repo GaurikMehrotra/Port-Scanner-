@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "labscan"
+version = "0.1.0"
+description = "An authorized, isolated-lab port scanner"
+requires-python = ">=3.10"
+dependencies = ["typer==0.16.0", "rich==14.0.0", "pydantic==2.11.7", "PyYAML==6.0.2", "scapy==2.6.1"]
+
+[project.optional-dependencies]
+dev = ["pytest==8.4.1", "pytest-asyncio==1.0.0", "hypothesis==6.135.26", "ruff==0.12.0", "mypy==1.16.1", "types-PyYAML==6.0.12.20250516"]
+
+eval = ["matplotlib==3.10.3"]
+
+[project.scripts]
+labscan = "labscan.cli:app"
+
+[tool.setuptools.package-data]
+labscan = ["py.typed"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+[[tool.mypy.overrides]]
+module = ["scapy.*"]
+ignore_missing_imports = true

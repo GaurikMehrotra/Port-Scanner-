@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.93 scan initiated Sun Oct 11 18:16:21 2026 as: nmap -sS -Pn -n -&#45;reason -&#45;max-rate 20 -&#45;max-retries 0 -p 22,53,80,81,82,6379,8000 -oX - 172.30.0.10 172.30.0.11 172.30.0.12 172.30.0.13 172.30.0.14 -->
+<nmaprun scanner="nmap" args="nmap -sS -Pn -n -&#45;reason -&#45;max-rate 20 -&#45;max-retries 0 -p 22,53,80,81,82,6379,8000 -oX - 172.30.0.10 172.30.0.11 172.30.0.12 172.30.0.13 172.30.0.14" start="1791742581" startstr="Sun Oct 11 18:16:21 2026" version="7.93" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="7" services="22,53,80-82,6379,8000"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.11" addrtype="ipv4"/>
+<address addr="16:1F:43:76:E1:E6" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.12" addrtype="ipv4"/>
+<address addr="36:AB:8F:75:15:10" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.14" addrtype="ipv4"/>
+<address addr="92:83:9C:4B:23:65" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.10" addrtype="ipv4"/>
+<address addr="8A:5A:3F:A1:8E:20" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.13" addrtype="ipv4"/>
+<address addr="4A:B9:A2:E6:4E:DC" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1791742582" endtime="1791742583"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.10" addrtype="ipv4"/>
+<address addr="8A:5A:3F:A1:8E:20" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="closed" reason="reset" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="81"><state state="closed" reason="reset" reason_ttl="64"/><service name="hosts2-ns" method="table" conf="3"/></port>
+<port protocol="tcp" portid="82"><state state="closed" reason="reset" reason_ttl="64"/><service name="xfer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="6379"><state state="closed" reason="reset" reason_ttl="64"/><service name="redis" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8000"><state state="closed" reason="reset" reason_ttl="64"/><service name="http-alt" method="table" conf="3"/></port>
+</ports>
+<times srtt="86" rttvar="713" to="100000"/>
+</host>
+<host starttime="1791742582" endtime="1791742582"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.11" addrtype="ipv4"/>
+<address addr="16:1F:43:76:E1:E6" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="closed" reason="reset" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="closed" reason="reset" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="81"><state state="closed" reason="reset" reason_ttl="64"/><service name="hosts2-ns" method="table" conf="3"/></port>
+<port protocol="tcp" portid="82"><state state="closed" reason="reset" reason_ttl="64"/><service name="xfer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="6379"><state state="closed" reason="reset" reason_ttl="64"/><service name="redis" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8000"><state state="closed" reason="reset" reason_ttl="64"/><service name="http-alt" method="table" conf="3"/></port>
+</ports>
+<times srtt="73" rttvar="685" to="100000"/>
+</host>
+<host starttime="1791742582" endtime="1791742583"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.12" addrtype="ipv4"/>
+<address addr="36:AB:8F:75:15:10" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="closed" reason="reset" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="closed" reason="reset" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="81"><state state="closed" reason="reset" reason_ttl="64"/><service name="hosts2-ns" method="table" conf="3"/></port>
+<port protocol="tcp" portid="82"><state state="closed" reason="reset" reason_ttl="64"/><service name="xfer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="6379"><state state="closed" reason="reset" reason_ttl="64"/><service name="redis" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8000"><state state="closed" reason="reset" reason_ttl="64"/><service name="http-alt" method="table" conf="3"/></port>
+</ports>
+<times srtt="69" rttvar="681" to="100000"/>
+</host>
+<host starttime="1791742582" endtime="1791742583"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.13" addrtype="ipv4"/>
+<address addr="4A:B9:A2:E6:4E:DC" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="closed" reason="reset" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="closed" reason="reset" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="81"><state state="closed" reason="reset" reason_ttl="64"/><service name="hosts2-ns" method="table" conf="3"/></port>
+<port protocol="tcp" portid="82"><state state="closed" reason="reset" reason_ttl="64"/><service name="xfer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="6379"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="redis" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8000"><state state="closed" reason="reset" reason_ttl="64"/><service name="http-alt" method="table" conf="3"/></port>
+</ports>
+<times srtt="67" rttvar="683" to="100000"/>
+</host>
+<host starttime="1791742582" endtime="1791742583"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.14" addrtype="ipv4"/>
+<address addr="92:83:9C:4B:23:65" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="reset" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="closed" reason="reset" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="closed" reason="reset" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="81"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="hosts2-ns" method="table" conf="3"/></port>
+<port protocol="tcp" portid="82"><state state="closed" reason="reset" reason_ttl="64"/><service name="xfer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="6379"><state state="closed" reason="reset" reason_ttl="64"/><service name="redis" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8000"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http-alt" method="table" conf="3"/></port>
+</ports>
+<times srtt="71" rttvar="898" to="100000"/>
+</host>
+<runstats><finished time="1791742583" timestr="Sun Oct 11 18:16:23 2026" summary="Nmap done at Sun Oct 11 18:16:23 2026; 5 IP addresses (5 hosts up) scanned in 1.99 seconds" elapsed="1.99" exit="success"/><hosts up="5" down="0" total="5"/>
+</runstats>
+</nmaprun>

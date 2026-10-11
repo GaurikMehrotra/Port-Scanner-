@@ -1,0 +1,5 @@
+{
+  "status": "blocked",
+  "reason": "tc qdisc replace dev eth0 root netem delay 0ms: Error: Specified qdisc kind is unknown.",
+  "action": "Use a Linux/WSL2 kernel with sch_netem support; do not use privileged mode"
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.93 scan initiated Sun Oct 11 18:36:40 2026 as: nmap -sU -Pn -n -&#45;reason -&#45;max-rate 1 -&#45;max-retries 0 -p 22,53,80,81,82,6379,8000 -oX - 172.30.0.10 172.30.0.11 172.30.0.12 172.30.0.13 172.30.0.14 -->
+<nmaprun scanner="nmap" args="nmap -sU -Pn -n -&#45;reason -&#45;max-rate 1 -&#45;max-retries 0 -p 22,53,80,81,82,6379,8000 -oX - 172.30.0.10 172.30.0.11 172.30.0.12 172.30.0.13 172.30.0.14" start="1791743800" startstr="Sun Oct 11 18:36:40 2026" version="7.93" xmloutputversion="1.05">
+<scaninfo type="udp" protocol="udp" numservices="7" services="22,53,80-82,6379,8000"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.11" addrtype="ipv4"/>
+<address addr="1E:DC:E6:47:49:6C" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.12" addrtype="ipv4"/>
+<address addr="7E:05:4A:53:20:5F" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.14" addrtype="ipv4"/>
+<address addr="F2:9F:74:D7:BF:0C" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.10" addrtype="ipv4"/>
+<address addr="F2:22:ED:BF:E7:CB" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.13" addrtype="ipv4"/>
+<address addr="12:2F:77:B0:5C:94" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1791743816" endtime="1791743844"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.10" addrtype="ipv4"/>
+<address addr="F2:22:ED:BF:E7:CB" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="22"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="udp" portid="53"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="udp" portid="80"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="udp" portid="81"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="hosts2-ns" method="table" conf="3"/></port>
+<port protocol="udp" portid="82"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="xfer" method="table" conf="3"/></port>
+<port protocol="udp" portid="6379"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="8000"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="irdmi" method="table" conf="3"/></port>
+</ports>
+<times srtt="79" rttvar="688" to="100000"/>
+</host>
+<host starttime="1791743805" endtime="1791743812"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.11" addrtype="ipv4"/>
+<address addr="1E:DC:E6:47:49:6C" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="22"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="udp" portid="53"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="udp" portid="80"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="udp" portid="81"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="hosts2-ns" method="table" conf="3"/></port>
+<port protocol="udp" portid="82"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="xfer" method="table" conf="3"/></port>
+<port protocol="udp" portid="6379"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="8000"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="irdmi" method="table" conf="3"/></port>
+</ports>
+<times srtt="74" rttvar="527" to="100000"/>
+</host>
+<host starttime="1791743813" endtime="1791743842"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.12" addrtype="ipv4"/>
+<address addr="7E:05:4A:53:20:5F" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="22"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="udp" portid="53"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="udp" portid="80"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="udp" portid="81"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="hosts2-ns" method="table" conf="3"/></port>
+<port protocol="udp" portid="82"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="xfer" method="table" conf="3"/></port>
+<port protocol="udp" portid="6379"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="8000"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="irdmi" method="table" conf="3"/></port>
+</ports>
+<times srtt="77" rttvar="914" to="100000"/>
+</host>
+<host starttime="1791743814" endtime="1791743845"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.13" addrtype="ipv4"/>
+<address addr="12:2F:77:B0:5C:94" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="22"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="udp" portid="53"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="udp" portid="80"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="udp" portid="81"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="hosts2-ns" method="table" conf="3"/></port>
+<port protocol="udp" portid="82"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="xfer" method="table" conf="3"/></port>
+<port protocol="udp" portid="6379"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="8000"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="irdmi" method="table" conf="3"/></port>
+</ports>
+<times srtt="80" rttvar="692" to="100000"/>
+</host>
+<host starttime="1791743815" endtime="1791743843"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.30.0.14" addrtype="ipv4"/>
+<address addr="F2:9F:74:D7:BF:0C" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="22"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="udp" portid="53"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="udp" portid="80"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="udp" portid="81"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="hosts2-ns" method="table" conf="3"/></port>
+<port protocol="udp" portid="82"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="xfer" method="table" conf="3"/></port>
+<port protocol="udp" portid="6379"><state state="closed" reason="port-unreach" reason_ttl="64"/></port>
+<port protocol="udp" portid="8000"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="irdmi" method="table" conf="3"/></port>
+</ports>
+<times srtt="74" rttvar="920" to="100000"/>
+</host>
+<runstats><finished time="1791743845" timestr="Sun Oct 11 18:37:25 2026" summary="Nmap done at Sun Oct 11 18:37:25 2026; 5 IP addresses (5 hosts up) scanned in 44.05 seconds" elapsed="44.05" exit="success"/><hosts up="5" down="0" total="5"/>
+</runstats>
+</nmaprun>

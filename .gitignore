@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+results/
+*.pcap
+*.pcapng
+.env
+
+# Retain audited lab-only evaluation captures.
+!docs/evidence/*.pcap
+!docs/evidence/*.pcapng

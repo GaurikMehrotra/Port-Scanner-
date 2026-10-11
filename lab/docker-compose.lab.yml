@@ -1,0 +1,68 @@
+name: labscan
+services:
+  web:
+    build: {context: ./services, dockerfile: Dockerfile}
+    environment: {MODE: http}
+    networks: {isolated: {ipv4_address: 172.30.0.10}}
+    mem_limit: 64m
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+  ssh:
+    image: labscan-ssh:local
+    build: {context: ./services, dockerfile: Dockerfile.ssh}
+    networks: {isolated: {ipv4_address: 172.30.0.11}}
+    mem_limit: 96m
+    cap_drop: [ALL]
+    cap_add: [SETUID, SETGID, SYS_CHROOT, CHOWN, DAC_OVERRIDE]
+    security_opt: [no-new-privileges:true]
+  dns:
+    build: {context: ./services, dockerfile: Dockerfile}
+    environment: {MODE: dns}
+    networks: {isolated: {ipv4_address: 172.30.0.12}}
+    mem_limit: 64m
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+  cache:
+    image: redis:7.4.4-alpine@sha256:ee9e8748ace004102a267f7b8265dab2c618317df22507b89d16a8add7154273
+    command: [redis-server, --save, "", --appendonly, "no"]
+    networks: {isolated: {ipv4_address: 172.30.0.13}}
+    mem_limit: 64m
+    cap_drop: [ALL]
+    user: redis
+    security_opt: [no-new-privileges:true]
+  firewall:
+    build: {context: ./services, dockerfile: Dockerfile.firewall}
+    environment: {MODE: echo}
+    networks: {isolated: {ipv4_address: 172.30.0.14}}
+    mem_limit: 64m
+    cap_drop: [ALL]
+    cap_add: [NET_ADMIN]
+    security_opt: [no-new-privileges:true]
+  scanner:
+    build: {context: .., dockerfile: docker/Dockerfile.scanner}
+    profiles: [tools]
+    networks: {isolated: {ipv4_address: 172.30.0.20}}
+    mem_limit: 256m
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+  raw:
+    build: {context: .., dockerfile: docker/Dockerfile.scanner}
+    profiles: [tools]
+    networks: {isolated: {ipv4_address: 172.30.0.21}}
+    mem_limit: 256m
+    cap_drop: [ALL]
+    cap_add: [NET_RAW]
+    security_opt: [no-new-privileges:true]
+  reference:
+    build: {context: .., dockerfile: docker/Dockerfile.reference}
+    profiles: [tools]
+    networks: {isolated: {ipv4_address: 172.30.0.22}}
+    mem_limit: 256m
+    cap_drop: [ALL]
+    cap_add: [NET_RAW]
+    security_opt: [no-new-privileges:true]
+networks:
+  isolated:
+    internal: true
+    ipam:
+      config: [{subnet: 172.30.0.0/24}]

@@ -1,0 +1,46 @@
+{
+  "disagreements": [
+    {
+      "host": "172.30.0.10",
+      "protocol": "udp",
+      "port": 6379,
+      "labscan": "closed",
+      "nmap": "open|filtered",
+      "truth": "closed"
+    },
+    {
+      "host": "172.30.0.12",
+      "protocol": "udp",
+      "port": 53,
+      "labscan": "open",
+      "nmap": "open|filtered",
+      "truth": "open"
+    },
+    {
+      "host": "172.30.0.13",
+      "protocol": "udp",
+      "port": 6379,
+      "labscan": "closed",
+      "nmap": "open|filtered",
+      "truth": "closed"
+    },
+    {
+      "host": "172.30.0.13",
+      "protocol": "udp",
+      "port": 8000,
+      "labscan": "open|filtered",
+      "nmap": "closed",
+      "truth": "closed"
+    },
+    {
+      "host": "172.30.0.14",
+      "protocol": "udp",
+      "port": 6379,
+      "labscan": "closed",
+      "nmap": "open|filtered",
+      "truth": "closed"
+    }
+  ],
+  "reference_count": 35,
+  "labscan_count": 35
+}

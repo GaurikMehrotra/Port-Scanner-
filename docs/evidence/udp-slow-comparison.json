@@ -1,0 +1,14 @@
+{
+  "disagreements": [
+    {
+      "host": "172.30.0.12",
+      "protocol": "udp",
+      "port": 53,
+      "labscan": "open",
+      "nmap": "open|filtered",
+      "truth": "open"
+    }
+  ],
+  "reference_count": 35,
+  "labscan_count": 35
+}

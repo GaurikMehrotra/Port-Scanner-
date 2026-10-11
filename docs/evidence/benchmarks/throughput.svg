@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2076">
+<rect width="100%" height="100%" fill="white"/>
+<text x="10" y="22">Measured ports per second (larger is faster)</text>
+<text x="10" y="59" font-size="12">connect-baseline-0</text>
+<rect x="250" y="45" width="286.57886176644763" height="18" fill="#3978ac"/>
+<text x="710" y="59" font-size="12">13.61</text>
+<text x="10" y="87" font-size="12">connect-c1-0</text>
+<rect x="250" y="73" width="275.91767625196144" height="18" fill="#3978ac"/>
+<text x="710" y="87" font-size="12">13.10</text>
+<text x="10" y="115" font-size="12">connect-c20-0</text>
+<rect x="250" y="101" width="286.664565267888" height="18" fill="#3978ac"/>
+<text x="710" y="115" font-size="12">13.61</text>
+<text x="10" y="143" font-size="12">connect-t025-0</text>
+<rect x="250" y="129" width="404.89715641232414" height="18" fill="#3978ac"/>
+<text x="710" y="143" font-size="12">19.22</text>
+<text x="10" y="171" font-size="12">connect-t2-0</text>
+<rect x="250" y="157" width="206.2791499445434" height="18" fill="#3978ac"/>
+<text x="710" y="171" font-size="12">9.79</text>
+<text x="10" y="199" font-size="12">connect-r1-0</text>
+<rect x="250" y="185" width="206.36263635354277" height="18" fill="#3978ac"/>
+<text x="710" y="199" font-size="12">9.80</text>
+<text x="10" y="227" font-size="12">connect-rate5-0</text>
+<rect x="250" y="213" width="101.95667929067878" height="18" fill="#3978ac"/>
+<text x="710" y="227" font-size="12">4.84</text>
+<text x="10" y="255" font-size="12">connect-rate50-0</text>
+<rect x="250" y="241" width="449.6339652592116" height="18" fill="#3978ac"/>
+<text x="710" y="255" font-size="12">21.35</text>
+<text x="10" y="283" font-size="12">syn-baseline-0</text>
+<rect x="250" y="269" width="282.38422118583156" height="18" fill="#3978ac"/>
+<text x="710" y="283" font-size="12">13.41</text>
+<text x="10" y="311" font-size="12">syn-c1-0</text>
+<rect x="250" y="297" width="270.82554651739224" height="18" fill="#3978ac"/>
+<text x="710" y="311" font-size="12">12.86</text>
+<text x="10" y="339" font-size="12">syn-c20-0</text>
+<rect x="250" y="325" width="282.6668902109076" height="18" fill="#3978ac"/>
+<text x="710" y="339" font-size="12">13.42</text>
+<text x="10" y="367" font-size="12">syn-t025-0</text>
+<rect x="250" y="353" width="395.0471822885326" height="18" fill="#3978ac"/>
+<text x="710" y="367" font-size="12">18.76</text>
+<text x="10" y="395" font-size="12">syn-t2-0</text>
+<rect x="250" y="381" width="204.29998033129854" height="18" fill="#3978ac"/>
+<text x="710" y="395" font-size="12">9.70</text>
+<text x="10" y="423" font-size="12">syn-r1-0</text>
+<rect x="250" y="409" width="202.7110603657227" height="18" fill="#3978ac"/>
+<text x="710" y="423" font-size="12">9.62</text>
+<text x="10" y="451" font-size="12">syn-rate5-0</text>
+<rect x="250" y="437" width="101.502493977184" height="18" fill="#3978ac"/>
+<text x="710" y="451" font-size="12">4.82</text>
+<text x="10" y="479" font-size="12">syn-rate50-0</text>
+<rect x="250" y="465" width="441.84986607747743" height="18" fill="#3978ac"/>
+<text x="710" y="479" font-size="12">20.98</text>
+<text x="10" y="507" font-size="12">udp-baseline-0</text>
+<rect x="250" y="493" width="286.93658933132167" height="18" fill="#3978ac"/>
+<text x="710" y="507" font-size="12">13.62</text>
+<text x="10" y="535" font-size="12">udp-c1-0</text>
+<rect x="250" y="521" width="113.86468022291352" height="18" fill="#3978ac"/>
+<text x="710" y="535" font-size="12">5.41</text>
+<text x="10" y="563" font-size="12">udp-c20-0</text>
+<rect x="250" y="549" width="286.6668992475803" height="18" fill="#3978ac"/>
+<text x="710" y="563" font-size="12">13.61</text>
+<text x="10" y="591" font-size="12">udp-t025-0</text>
+<rect x="250" y="577" width="405.1897963193642" height="18" fill="#3978ac"/>
+<text x="710" y="591" font-size="12">19.24</text>
+<text x="10" y="619" font-size="12">udp-t2-0</text>
+<rect x="250" y="605" width="197.9839368968967" height="18" fill="#3978ac"/>
+<text x="710" y="619" font-size="12">9.40</text>
+<text x="10" y="647" font-size="12">udp-r1-0</text>
+<rect x="250" y="633" width="206.3537284245739" height="18" fill="#3978ac"/>
+<text x="710" y="647" font-size="12">9.80</text>
+<text x="10" y="675" font-size="12">udp-rate5-0</text>
+<rect x="250" y="661" width="102.03907274680509" height="18" fill="#3978ac"/>
+<text x="710" y="675" font-size="12">4.84</text>
+<text x="10" y="703" font-size="12">udp-rate50-0</text>
+<rect x="250" y="689" width="435.14724116139854" height="18" fill="#3978ac"/>
+<text x="710" y="703" font-size="12">20.66</text>
+<text x="10" y="731" font-size="12">connect-baseline-1</text>
+<rect x="250" y="717" width="286.597099741933" height="18" fill="#3978ac"/>
+<text x="710" y="731" font-size="12">13.61</text>
+<text x="10" y="759" font-size="12">connect-c1-1</text>
+<rect x="250" y="745" width="275.7452740837304" height="18" fill="#3978ac"/>
+<text x="710" y="759" font-size="12">13.09</text>
+<text x="10" y="787" font-size="12">connect-c20-1</text>
+<rect x="250" y="773" width="286.72618923273376" height="18" fill="#3978ac"/>
+<text x="710" y="787" font-size="12">13.61</text>
+<text x="10" y="815" font-size="12">connect-t025-1</text>
+<rect x="250" y="801" width="404.2818963478734" height="18" fill="#3978ac"/>
+<text x="710" y="815" font-size="12">19.20</text>
+<text x="10" y="843" font-size="12">connect-t2-1</text>
+<rect x="250" y="829" width="206.2758828878274" height="18" fill="#3978ac"/>
+<text x="710" y="843" font-size="12">9.79</text>
+<text x="10" y="871" font-size="12">connect-r1-1</text>
+<rect x="250" y="857" width="206.33546968682404" height="18" fill="#3978ac"/>
+<text x="710" y="871" font-size="12">9.80</text>
+<text x="10" y="899" font-size="12">connect-rate5-1</text>
+<rect x="250" y="885" width="101.99802333595683" height="18" fill="#3978ac"/>
+<text x="710" y="899" font-size="12">4.84</text>
+<text x="10" y="927" font-size="12">connect-rate50-1</text>
+<rect x="250" y="913" width="450.0" height="18" fill="#3978ac"/>
+<text x="710" y="927" font-size="12">21.37</text>
+<text x="10" y="955" font-size="12">syn-baseline-1</text>
+<rect x="250" y="941" width="283.32107814302805" height="18" fill="#3978ac"/>
+<text x="710" y="955" font-size="12">13.45</text>
+<text x="10" y="983" font-size="12">syn-c1-1</text>
+<rect x="250" y="969" width="269.26551806227366" height="18" fill="#3978ac"/>
+<text x="710" y="983" font-size="12">12.78</text>
+<text x="10" y="1011" font-size="12">syn-c20-1</text>
+<rect x="250" y="997" width="282.57696641906557" height="18" fill="#3978ac"/>
+<text x="710" y="1011" font-size="12">13.42</text>
+<text x="10" y="1039" font-size="12">syn-t025-1</text>
+<rect x="250" y="1025" width="397.2942432988119" height="18" fill="#3978ac"/>
+<text x="710" y="1039" font-size="12">18.86</text>
+<text x="10" y="1067" font-size="12">syn-t2-1</text>
+<rect x="250" y="1053" width="204.40819505530607" height="18" fill="#3978ac"/>
+<text x="710" y="1067" font-size="12">9.71</text>
+<text x="10" y="1095" font-size="12">syn-r1-1</text>
+<rect x="250" y="1081" width="202.9180789168155" height="18" fill="#3978ac"/>
+<text x="710" y="1095" font-size="12">9.63</text>
+<text x="10" y="1123" font-size="12">syn-rate5-1</text>
+<rect x="250" y="1109" width="101.69587587403585" height="18" fill="#3978ac"/>
+<text x="710" y="1123" font-size="12">4.83</text>
+<text x="10" y="1151" font-size="12">syn-rate50-1</text>
+<rect x="250" y="1137" width="443.0524452890809" height="18" fill="#3978ac"/>
+<text x="710" y="1151" font-size="12">21.04</text>
+<text x="10" y="1179" font-size="12">udp-baseline-1</text>
+<rect x="250" y="1165" width="286.9118560621786" height="18" fill="#3978ac"/>
+<text x="710" y="1179" font-size="12">13.62</text>
+<text x="10" y="1207" font-size="12">udp-c1-1</text>
+<rect x="250" y="1193" width="133.51272424497955" height="18" fill="#3978ac"/>
+<text x="710" y="1207" font-size="12">6.34</text>
+<text x="10" y="1235" font-size="12">udp-c20-1</text>
+<rect x="250" y="1221" width="286.95520184490533" height="18" fill="#3978ac"/>
+<text x="710" y="1235" font-size="12">13.62</text>
+<text x="10" y="1263" font-size="12">udp-t025-1</text>
+<rect x="250" y="1249" width="405.2302607906885" height="18" fill="#3978ac"/>
+<text x="710" y="1263" font-size="12">19.24</text>
+<text x="10" y="1291" font-size="12">udp-t2-1</text>
+<rect x="250" y="1277" width="206.69408843956242" height="18" fill="#3978ac"/>
+<text x="710" y="1291" font-size="12">9.81</text>
+<text x="10" y="1319" font-size="12">udp-r1-1</text>
+<rect x="250" y="1305" width="206.41785604822" height="18" fill="#3978ac"/>
+<text x="710" y="1319" font-size="12">9.80</text>
+<text x="10" y="1347" font-size="12">udp-rate5-1</text>
+<rect x="250" y="1333" width="102.03563704161016" height="18" fill="#3978ac"/>
+<text x="710" y="1347" font-size="12">4.84</text>
+<text x="10" y="1375" font-size="12">udp-rate50-1</text>
+<rect x="250" y="1361" width="434.9419609692842" height="18" fill="#3978ac"/>
+<text x="710" y="1375" font-size="12">20.65</text>
+<text x="10" y="1403" font-size="12">connect-baseline-2</text>
+<rect x="250" y="1389" width="286.71878938488834" height="18" fill="#3978ac"/>
+<text x="710" y="1403" font-size="12">13.61</text>
+<text x="10" y="1431" font-size="12">connect-c1-2</text>
+<rect x="250" y="1417" width="275.6847928402471" height="18" fill="#3978ac"/>
+<text x="710" y="1431" font-size="12">13.09</text>
+<text x="10" y="1459" font-size="12">connect-c20-2</text>
+<rect x="250" y="1445" width="286.27161044116053" height="18" fill="#3978ac"/>
+<text x="710" y="1459" font-size="12">13.59</text>
+<text x="10" y="1487" font-size="12">connect-t025-2</text>
+<rect x="250" y="1473" width="405.11373088904435" height="18" fill="#3978ac"/>
+<text x="710" y="1487" font-size="12">19.24</text>
+<text x="10" y="1515" font-size="12">connect-t2-2</text>
+<rect x="250" y="1501" width="206.3772957095834" height="18" fill="#3978ac"/>
+<text x="710" y="1515" font-size="12">9.80</text>
+<text x="10" y="1543" font-size="12">connect-r1-2</text>
+<rect x="250" y="1529" width="206.3875298769391" height="18" fill="#3978ac"/>
+<text x="710" y="1543" font-size="12">9.80</text>
+<text x="10" y="1571" font-size="12">connect-rate5-2</text>
+<rect x="250" y="1557" width="101.98977967485368" height="18" fill="#3978ac"/>
+<text x="710" y="1571" font-size="12">4.84</text>
+<text x="10" y="1599" font-size="12">connect-rate50-2</text>
+<rect x="250" y="1585" width="448.2825215170512" height="18" fill="#3978ac"/>
+<text x="710" y="1599" font-size="12">21.28</text>
+<text x="10" y="1627" font-size="12">syn-baseline-2</text>
+<rect x="250" y="1613" width="281.258417154449" height="18" fill="#3978ac"/>
+<text x="710" y="1627" font-size="12">13.35</text>
+<text x="10" y="1655" font-size="12">syn-c1-2</text>
+<rect x="250" y="1641" width="255.97213167475599" height="18" fill="#3978ac"/>
+<text x="710" y="1655" font-size="12">12.15</text>
+<text x="10" y="1683" font-size="12">syn-c20-2</text>
+<rect x="250" y="1669" width="282.29515323155886" height="18" fill="#3978ac"/>
+<text x="710" y="1683" font-size="12">13.40</text>
+<text x="10" y="1711" font-size="12">syn-t025-2</text>
+<rect x="250" y="1697" width="395.7802397770663" height="18" fill="#3978ac"/>
+<text x="710" y="1711" font-size="12">18.79</text>
+<text x="10" y="1739" font-size="12">syn-t2-2</text>
+<rect x="250" y="1725" width="203.59761564752802" height="18" fill="#3978ac"/>
+<text x="710" y="1739" font-size="12">9.67</text>
+<text x="10" y="1767" font-size="12">syn-r1-2</text>
+<rect x="250" y="1753" width="203.09888911661085" height="18" fill="#3978ac"/>
+<text x="710" y="1767" font-size="12">9.64</text>
+<text x="10" y="1795" font-size="12">syn-rate5-2</text>
+<rect x="250" y="1781" width="101.6620017434777" height="18" fill="#3978ac"/>
+<text x="710" y="1795" font-size="12">4.83</text>
+<text x="10" y="1823" font-size="12">syn-rate50-2</text>
+<rect x="250" y="1809" width="444.2230968614978" height="18" fill="#3978ac"/>
+<text x="710" y="1823" font-size="12">21.09</text>
+<text x="10" y="1851" font-size="12">udp-baseline-2</text>
+<rect x="250" y="1837" width="286.9390560794092" height="18" fill="#3978ac"/>
+<text x="710" y="1851" font-size="12">13.62</text>
+<text x="10" y="1879" font-size="12">udp-c1-2</text>
+<rect x="250" y="1865" width="133.50343084647102" height="18" fill="#3978ac"/>
+<text x="710" y="1879" font-size="12">6.34</text>
+<text x="10" y="1907" font-size="12">udp-c20-2</text>
+<rect x="250" y="1893" width="286.8215593320621" height="18" fill="#3978ac"/>
+<text x="710" y="1907" font-size="12">13.62</text>
+<text x="10" y="1935" font-size="12">udp-t025-2</text>
+<rect x="250" y="1921" width="374.0138186499234" height="18" fill="#3978ac"/>
+<text x="710" y="1935" font-size="12">17.76</text>
+<text x="10" y="1963" font-size="12">udp-t2-2</text>
+<rect x="250" y="1949" width="167.17636775932195" height="18" fill="#3978ac"/>
+<text x="710" y="1963" font-size="12">7.94</text>
+<text x="10" y="1991" font-size="12">udp-r1-2</text>
+<rect x="250" y="1977" width="206.38341141478094" height="18" fill="#3978ac"/>
+<text x="710" y="1991" font-size="12">9.80</text>
+<text x="10" y="2019" font-size="12">udp-rate5-2</text>
+<rect x="250" y="2005" width="102.03586113237814" height="18" fill="#3978ac"/>
+<text x="710" y="2019" font-size="12">4.84</text>
+<text x="10" y="2047" font-size="12">udp-rate50-2</text>
+<rect x="250" y="2033" width="433.95484686913466" height="18" fill="#3978ac"/>
+<text x="710" y="2047" font-size="12">20.60</text>
+</svg>
